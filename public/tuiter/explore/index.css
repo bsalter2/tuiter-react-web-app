@@ -1,0 +1,115 @@
+.wd-wrapper{
+    margin: 15px;
+}
+
+.wd-form-search {
+    color: darkgrey;
+    background-color: lightgrey;
+    border-radius: 50px;
+    border-color: lightgrey;
+}
+
+.wd-pos-left {
+    position: absolute;
+    top: 18px;
+    left: 25px;
+}
+
+.wd-pos-left-alt {
+    position: absolute;
+    top: 6px;
+    left: 25px;
+}
+
+.wd-pos-right {
+    position: absolute;
+    top: 18px;
+    right: 25px;
+}
+
+
+.wd-pad-center {
+    float: left;
+    padding-left: 50px;
+    width: 70%;
+
+}
+
+.wd-grid-row {
+    clear: both;
+ }
+
+ .wd-grid-col {
+    float: left;
+    width: 80%;
+ }
+
+ .wd-grid-col2 {
+    float: left;
+    width: 100%;
+ }
+
+ .wd-pos-bot-left {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+ }
+
+ .wd-text-white{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+ }
+
+ .wd-card {
+    list-style-type: none;
+ }
+
+ .wd-text-left{
+    float: left;
+ }
+
+ .wd-text-sub {
+    font-size: 12px;
+    color: lightgray;
+
+ }
+
+ .wd-text-heading {
+    font-size: 18px;
+    font-weight: bold;
+ }
+
+ .wd-float-left {
+    float: right;
+
+ }
+
+ .wd-float-right {
+    float: right;
+    margin-right: 15px;
+
+ }
+
+ .wd-card-entry {
+    margin-top: 10px;
+ }
+
+ .wd-image-container{
+    position:relative;
+ }
+
+ .wd-image {
+    width: 100%;
+ }
+
+ .wd-image-setsize {
+    width: 100px;
+    height: 100px;
+ }
+
+ .wd-image-circle {
+    width: 48px;
+    height: 48px;
+
+ }

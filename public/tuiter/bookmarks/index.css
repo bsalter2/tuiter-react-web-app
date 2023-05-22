@@ -1,0 +1,107 @@
+.wd-wrapper {
+    margin: 15px;
+}
+
+.wd-pos-left {
+    position: absolute;
+    left: 10px;
+    top: 3px;
+
+}
+
+.wd-pos-right {
+    position: absolute;
+    right: 10px;
+    top: 1px;
+}
+
+.wd-top-container {
+    text-align: center;
+    height: 50px;
+    width: 80%;
+}
+
+.wd-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.wd-pad-center {
+    float: left;
+    width: 50%;
+
+}
+
+.wd-float-right {
+    float: right;
+    margin-right: 15px;
+    width: 10%;
+
+}
+
+.wd-float-left {
+    float: left;
+    width: 10%;
+
+}
+
+.wd-float-mid {
+    float: left;
+    width: 60%;
+}
+
+.wd-tuit-container {
+    clear: both;
+    border-radius: 15px;
+    margin: 0px 20px 0px 50px;
+    width: 60%
+}
+
+.wd-icon-image {
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+}
+
+.wd-title {
+    font-weight: bold;
+}
+
+.wd-sub-title {
+    color: lightgray;
+}
+
+.wd-border-solid {
+    border-style: solid;
+    border-width: 2px;
+    color: lightgrey;
+}
+
+.wd-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.wd-title2 {
+    color: black
+}
+
+.wd-card-container {
+    width: 80%;
+    margin-top: 30px;
+}
+
+.wd-bottom-container {
+    clear: both;
+    border-radius: 15px;
+    margin: 0px 20px 0px 50px;
+    width: 60%
+}
+
+.wd-grey-text{
+    color: grey;
+}
+
+.wd-icon-field {
+    margin-right: 30px;
+}
