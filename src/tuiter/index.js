@@ -26,7 +26,7 @@ function Tuiter() {
             <div className="col-xxl-6 col-xl-6 col-lg-7 col-md-10 col-sm-10">
               <Routes>
                 <Route path="/home" element={<HomeScreen/>} />
-                <Route path="/explore_" element={<ExploreScreen/>} />
+                <Route path="/explore" element={<ExploreScreen/>} />
                 <Route path="/bookmarks" element={<BookmarksScreen/>}/>
                 <Route path="/profile" element={<ProfileScreen/>}/>
               </Routes>
