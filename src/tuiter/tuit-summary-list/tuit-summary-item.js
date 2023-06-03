@@ -6,15 +6,16 @@ const TuitSummaryItem = (
      "userName": "SpaceX",
      "time": "2h",
      "title": "Tesla CyberTruck lands on Mars and picks up the Curiosity rover on its 6' bed",
-     "image": "tesla.png"
+     "image": "tesla.png",
+     "handle": "@example"
    }
  }
 ) => {
  return(
-  <li className="list-group-item">
-   <div className="row">
+  <li className="list-group-item ">
+   <div className="row align-items-center">
      <div className="col-10">
-       <div>{tuit.userName} . {tuit.time}</div>
+       <div>{tuit.userName} . {tuit.time} </div>
        <div className="fw-bolder">{tuit.topic}</div>
        <div>{tuit.title}</div>
      </div>
