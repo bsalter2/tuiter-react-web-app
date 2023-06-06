@@ -4,3 +4,4 @@
 node_modules
 tuiter-node-server-app
 .bash_profile
+.env
