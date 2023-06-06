@@ -1,4 +1,6 @@
 import React from "react";
+import { updateTuitThunk } from "../services/tuits-thunks";
+import { useDispatch } from "react-redux";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  faComment, faShareSquare } from '@fortawesome/fontawesome-free-regular'
 import {  faRetweet } from '@fortawesome/fontawesome-free-solid'
@@ -15,6 +17,9 @@ const TuitStats = (
         }
     }
 ) => {
+
+    const dispatch = useDispatch();
+
     return (
         <div className="row text-center ">
 
@@ -35,9 +40,13 @@ const TuitStats = (
             </span>
             <span className="col-3">
                 {tuit.liked ?
-                <FontAwesomeIcon icon="fa-solid fa-heart" style={{color: "#f44343",}}/>
+                <FontAwesomeIcon icon="fa-solid fa-heart" onClick={() =>
+                    dispatch(updateTuitThunk({ ...tuit, likes: tuit.likes - 1, liked: !tuit.liked}))
+                  } style={{color: "#f44343",}}/>
                 :
-                <FontAwesomeIcon icon="fa-regular fa-heart"/>
+                <FontAwesomeIcon onClick={() =>
+                    dispatch(updateTuitThunk({ ...tuit, likes: tuit.likes + 1, liked: !tuit.liked}))
+                  } icon="fa-regular fa-heart"/>
                 }
                                 &nbsp;
                 {tuit.likes}

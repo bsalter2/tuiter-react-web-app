@@ -1,6 +1,6 @@
 import React from "react";
+import {deleteTuitThunk} from "../services/tuits-thunks";
 import {useDispatch} from "react-redux";
-import {deleteTuit} from "../reducers/tuits-reducer";
 import { BiX } from "react-icons/bi";
 import TuitStats from "./tuit-stats";
 
@@ -18,7 +18,7 @@ const TuitItem = (
 
   const dispatch = useDispatch();
  const deleteTuitHandler = (id) => {
-  dispatch(deleteTuit(id));
+  dispatch(deleteTuitThunk(id));
 }
 
  return(
@@ -31,7 +31,7 @@ const TuitItem = (
        <div>
         <span>
             {tuit.userName} {tuit.handle} . {tuit.time} 
-            <BiX class="float-end" onClick={() => deleteTuitHandler(tuit._id)} />
+            <BiX className="float-end" onClick={() => deleteTuitHandler(tuit._id)} />
             </span>
         </div>
        <div className="fw-bolder">{tuit.topic}</div>
