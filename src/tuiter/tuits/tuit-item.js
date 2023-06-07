@@ -27,7 +27,7 @@ const TuitItem = (
    <div className="col-auto">
        <img width={70} className="float-end rounded-3" src={`../images/${tuit.image}`} alt=""/>
      </div>
-     <div className="col-10">
+     <div className="col-auto">
        <div>
         <span>
             {tuit.userName} {tuit.handle} . {tuit.time} 

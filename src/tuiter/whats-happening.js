@@ -10,7 +10,7 @@ const WhatsHappening = () => {
 
  const tuitClickHandler = () => {
     const newTuit = {
-        tuit: whatsHappening
+        topic: whatsHappening
       }
       dispatch(createTuitThunk(newTuit));
       setWhatsHappening("");
